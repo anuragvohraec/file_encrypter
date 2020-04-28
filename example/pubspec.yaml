@@ -1,0 +1,25 @@
+name: file_encrypter_example
+description: Demonstrates how to use the file_encrypter plugin.
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.5.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  file_encrypter:
+    path: ../
+  dio:
+  path_provider:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  

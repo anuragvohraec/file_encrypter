@@ -1,0 +1,27 @@
+name: file_encrypter
+description: Super fast file encrypter for flutter. Uses AES-256 in CBC mode with PKCS5 padding.
+version: 1.0.1
+repository: https://github.com/sarbagyastha/file_encrypter
+homepage: https://sarbagyastha.com.np
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  meta: '>=1.1.8 <2.0.0'
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: np.com.sarbagyastha.file_encrypter
+        pluginClass: FileEncrypterPlugin
+      ios:
+        pluginClass: FileEncrypterPlugin
